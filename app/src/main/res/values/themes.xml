@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/accent_on</item>
+        <item name="colorSecondary">@color/orb_sand</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@drawable/bg_screen</item>
+        <item name="android:fontFamily">@font/outfit</item>
+        <item name="fontFamily">@font/outfit</item>
+        <item name="android:textColorPrimary">@color/ink</item>
+        <item name="android:textColorSecondary">@color/ink_secondary</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <!-- Style family roots (required for AppText.* / AppButton.* names) -->
+    <style name="AppText" />
+    <style name="AppButton" />
+
+    <style name="AppText.Brand" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:fontFamily">@font/outfit_bold</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="AppText.Subtitle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/outfit_regular</item>
+        <item name="android:textColor">@color/ink_secondary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="AppText.Section" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="AppText.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/outfit_regular</item>
+        <item name="android:textColor">@color/ink_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppText.RowTitle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AppText.Badge">
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="AppButton.GlassPrimary" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/bg_glass_button_primary</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textColor">@color/accent_on</item>
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="AppButton.GlassSecondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:background">@drawable/bg_glass_button_secondary</item>
+        <item name="backgroundTint">@null</item>
+        <item name="strokeColor">@android:color/transparent</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:fontFamily">@font/outfit_semibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+</resources>

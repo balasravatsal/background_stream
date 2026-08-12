@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Red / black glass palette -->
+    <color name="bg_top">#140608</color>
+    <color name="bg_mid">#0A0A0A</color>
+    <color name="bg_bottom">#1A0508</color>
+    <color name="orb_teal">#E11D48</color>
+    <color name="orb_slate">#7F1D1D</color>
+    <color name="orb_sand">#FB7185</color>
+
+    <color name="ink">#FFF5F5</color>
+    <color name="ink_secondary">#D4B4B8</color>
+    <color name="ink_muted">#9A7A80</color>
+
+    <color name="glass_fill">#33FFFFFF</color>
+    <color name="glass_fill_strong">#40FFFFFF</color>
+    <color name="glass_stroke">#59FFFFFF</color>
+    <color name="glass_stroke_soft">#33FFFFFF</color>
+
+    <color name="accent">#E11D48</color>
+    <color name="accent_soft">#4C0A18</color>
+    <color name="accent_on">#FFFFFFFF</color>
+
+    <color name="ok_bg">#1F3D2C</color>
+    <color name="ok_text">#86EFAC</color>
+    <color name="missing_bg">#4A1D12</color>
+    <color name="missing_text">#FDBA74</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Background Stream</string>
+    <string name="tile_label">Background Stream</string>
+    <string name="brand_name">Background\nStream</string>
+    <string name="setup_title">Background Stream Setup</string>
+    <string name="setup_eyebrow">LISTEN ANYWHERE</string>
+    <string name="setup_subtitle">Keep YouTube audio playing with the screen off. Grant access once, add the Quick Settings tile, then tap it while a video plays.</string>
+    <string name="setup_steps">This PoC needs the permissions below to read the YouTube notification title, play audio in the background, and survive with the screen off.\n\n1. Notification access (read YouTube title)\n2. Post notifications (media playback FGS)\n3. Unrestricted battery (screen-off reliability)\n4. Add the Quick Settings tile\n5. Play YouTube, then tap the tile</string>
+    <string name="status_card_title">System readiness</string>
+    <string name="permissions_section">Permissions</string>
+    <string name="grant_all">Enable everything</string>
+    <string name="grant_notification_access">Notification access</string>
+    <string name="grant_post_notifications">Playback notifications</string>
+    <string name="grant_battery">Unrestricted battery</string>
+    <string name="add_qs_tile">Add Quick Settings tile</string>
+    <string name="perm_hint_listener">Read the active YouTube title</string>
+    <string name="perm_hint_post">Show the media playback notification</string>
+    <string name="perm_hint_battery">Survive with the screen off</string>
+    <string name="perm_hint_tile">One-tap takeover from the shade</string>
+    <string name="status_header">Status:\n%1$s</string>
+    <string name="status_ok">Ready</string>
+    <string name="status_missing">Needed</string>
+    <string name="status_line_listener">Notification access</string>
+    <string name="status_line_post">Playback notifications</string>
+    <string name="status_line_battery">Battery unrestricted</string>
+    <string name="status_line_tile">Quick Settings tile</string>
+    <string name="footer_tip">Tip: play a YouTube video, pull down Quick Settings, then tap Background Stream.</string>
+    <string name="tile_add_unsupported">On this Android version, edit Quick Settings manually and add \"Background Stream\".</string>
+    <string name="tile_add_requested">Tile add prompt shown (or already added).</string>
+    <string name="no_youtube_title">No YouTube media detected. Make sure Notification Access is ON for Background Stream, a video is actually playing (not just paused on the home feed), then tap the tile again.</string>
+    <string name="capturing_audio">Capturing audio: %1$s</string>
+    <string name="capturing_audio_sync">BG sync: %1$s @ %2$s ×%3$.2f — going Home</string>
+    <string name="extract_failed">Failed to extract stream</string>
+    <string name="extract_failed_detail">Extract failed: %1$s</string>
+    <string name="player_connect_failed">Could not connect to the audio player service</string>
+</resources>

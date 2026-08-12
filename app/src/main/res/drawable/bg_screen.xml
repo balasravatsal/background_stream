@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_atmosphere" />
+
+    <item
+        android:width="280dp"
+        android:height="280dp"
+        android:gravity="top|end"
+        android:right="-60dp"
+        android:top="-40dp">
+        <shape android:shape="oval">
+            <solid android:color="#66E11D48" />
+        </shape>
+    </item>
+
+    <item
+        android:width="220dp"
+        android:height="220dp"
+        android:gravity="bottom|start"
+        android:bottom="40dp"
+        android:left="-50dp">
+        <shape android:shape="oval">
+            <solid android:color="#447F1D1D" />
+        </shape>
+    </item>
+
+    <item
+        android:width="180dp"
+        android:height="180dp"
+        android:gravity="center"
+        android:top="120dp">
+        <shape android:shape="oval">
+            <solid android:color="#33FB7185" />
+        </shape>
+    </item>
+</layer-list>
