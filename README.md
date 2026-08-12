@@ -6,11 +6,8 @@ Keep YouTube audio playing with the screen off. Grant access once, add the Quick
 
 https://github.com/balasravatsal/background_stream/raw/main/docs/bg-stream_demo.mp4
 
-<video controls width="720" playsinline>
-  <source src="https://github.com/balasravatsal/background_stream/raw/main/docs/bg-stream_demo.mp4" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/e3e82b3e-a477-40f8-ac2f-a39aedc380a2
 
-[Download / open demo](docs/bg-stream_demo.mp4)
 
 ## How it works
 
