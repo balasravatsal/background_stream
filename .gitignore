@@ -16,4 +16,3 @@
 local.properties
 *.jks
 *.keystore
-/share/*.apk
